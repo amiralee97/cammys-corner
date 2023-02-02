@@ -1,0 +1,28 @@
+body {
+background-color: rgb(221, 203, 178);
+font-family: 'Noto Serif', serif;
+}
+
+.navbar-brand {
+border-radius: 50%;
+}
+
+.top h4 {
+    font-family: 'Explora', cursive;
+}
+
+footer span {
+    font-family: 'Amatic SC', cursive;
+}
+
+.top {
+    text-align: center;
+}
+h1 {
+    font-style: italic;
+    color: rgb(50, 38, 3);
+}
+
+.top span {
+    color: green;
+}

@@ -5,71 +5,115 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog blog</title>
+    <title>Cammy's Corner</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/5069e07ff6.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Explora&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <div class="full-page">
+    <div class="navbar navbar-expand-sm">
+        <div class="container">
+            <img src="img/logo.png" alt="" class="navbar-brand">
+
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav"
+                aria-label="Expand Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Blogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contant</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container">
         <div class="top">
 
-            <h1>Blog & blog</h1>
-            <h4>a blog of blogs</h4>
+            <h1>Cammy's Corner</h1>
+            <h4>A <span>sustainibilty</span> blog</h4>
 
-            <section>
-                <nav class="ul">
-                    <li>blog</li>
-                    <li>archive</li>
-                    <li>shop</li>
-                    <li>gallery</li>
-                    <li>about</li>
-                    <li>contact</li>
-                    <li>buy now</li>
-                </nav>
-            </section>
         </div>
 
         <div class="hero-section">
             <h2>Weekends in Philly</h2>
             <h3>Read now</h3>
-            <img src="" alt="">
+            <img src="img/hero-image.jpg" class="img-fluid" alt="">
         </div>
 
         <section class="subscribe">
-            <h2>Get on the list</h2>
-            <input type="input" placeholder="name">
-            <input type="input" placeholder="email">
-            <button>subscribe</button>
+
+            <form>
+                <input type="input" placeholder="Name">
+                <input type="input" placeholder="Email">
+                <button button type="button" class="btn btn-outline-secondary btn-sm">Subscribe</button>
+            </form>
         </section>
 
-        <section class="pictures">
-            <div class="three-columns">
-                <h3>The blog</h3>
-                <img src="" alt="">
-            </div>
-            <div class="three-columns">
-                <h3>My story</h3>
-                <img src="" alt="">
-            </div>
-            <div class="three-columns">
-                <h3>The shop</h3>
-                <img src="" alt="">
-            </div>
+        <section class="d-flex justify-content-around align-items-center">
+            <!-- 
+            <div class="d-flex justify-content-around"> -->
+            <!-- <div class="card-img"> -->
+            <img src="img/the-blog.jpg" class="img-fluid" alt="">
+            <!-- <div class="img-overlay">The Blog</div>
+                </div>
+            </div> -->
+
+            <!-- <div class="card">
+                <div class="card-img"> -->
+            <img src="img/my-story.jpg" class="img-fluid" alt="">
+            <!-- <div class="img-overlay">My Story</div> -->
+            <!-- </div>
+            </div> -->
+
+            <!-- <div class="card">
+                <div class="card-img"> -->
+            <img src="img/the-shop.jpg" class="img-fluid" alt="">
+            <!-- <div class="img-overlay">The Shop</div>
+                </div>
+            </div> -->
         </section>
 
         <article>
             <h3>We want to tell the stories that matter to us</h3>
-            <p>big blah blah blah i can fill this section in later. with something real and maybe meanignful and powerfully moving.</p>
-            <button>read more</button>
+            <p>big blah blah blah i can fill this section in later. with something real and maybe meanignful and
+                powerfully moving.</p>
+            <button button type="button" class="btn btn-outline-secondary btn-sm">Read More</button>
         </article>
 
         <section class="last">
             <h4>get on the list</h4>
             <input type="input" placeholder="email address">
-            <button>subscribe</button>
+            <button button type="button" class="btn btn-outline-secondary btn-sm">Subscribe</button>
         </section>
-<footer>
-    <h5>Copyright 2023 | Made by <span>Amira Lee</span> with love</h5>
-</footer>
+        <footer>
+            <h5>Copyright 2023 | Made by <span>Amira Lee</span> with love</h5>
+        </footer>
 
 
     </div>
