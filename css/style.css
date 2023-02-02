@@ -1,23 +1,21 @@
 body {
-background-color: rgb(221, 203, 178);
-font-family: 'Noto Serif', serif;
+    background-color: rgb(221, 203, 178);
+    font-family: 'Noto Serif', serif;
 }
 
 .navbar-brand {
-border-radius: 50%;
+    border-radius: 50%;
 }
 
 .top h4 {
     font-family: 'Explora', cursive;
 }
 
-footer span {
-    font-family: 'Amatic SC', cursive;
-}
 
 .top {
     text-align: center;
 }
+
 h1 {
     font-style: italic;
     color: rgb(50, 38, 3);
@@ -25,4 +23,49 @@ h1 {
 
 .top span {
     color: green;
+}
+
+.hero-section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+    color: #fff;
+}
+
+.subscribe {
+    display: flex;
+    padding: 15px 0;
+    justify-content: center;
+}
+.subscribe h5 {
+    padding-right: 20px;
+    font-style: italic;
+}
+
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+    color: #fff;
+}
+
+article {
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer span {
+    font-family: 'Amatic SC', cursive;
 }
