@@ -91,6 +91,10 @@ form {
     color: #fff;
 }
 
+.title, .caption {
+    text-shadow: 1px 1px 2px rgb(195, 183, 14), 0 0 1em rgb(16, 136, 70), 0 0 0.2em blue;
+}
+
 article {
     text-align: center;
     margin: 30px;
