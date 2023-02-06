@@ -7,6 +7,11 @@ body {
     border-radius: 50%;
 }
 
+.navbar-toggler:hover {
+    background-color: rgba(95, 128, 43, 0.5);
+    text-decoration: none;
+}
+
 .top h3 {
     font-family: 'Explora', cursive;
    
@@ -43,7 +48,19 @@ h1 {
 .title a {
     color: #fff;
     cursor: pointer;
+    text-decoration: none;
+
 }
+.title a:hover {
+    color:rgb(255, 236, 88);
+    text-shadow: 1px 1px 2px rgb(84, 78, 2), 0 0 1em rgb(0, 43, 19), 0 0 0.2em rgb(106, 0, 255);
+
+}
+
+.title, .caption {
+    text-shadow: 1px 1px 2px rgb(195, 183, 14), 0 0 1em rgb(16, 136, 70), 0 0 0.2em blue;
+}
+
 
 /********** making the subscribe section flexible***********/
 .subscribe {
@@ -91,8 +108,8 @@ form {
     color: #fff;
 }
 
-.title, .caption {
-    text-shadow: 1px 1px 2px rgb(195, 183, 14), 0 0 1em rgb(16, 136, 70), 0 0 0.2em blue;
+.caption:hover {
+  color:rgb(255, 236, 88);
 }
 
 article {
@@ -101,6 +118,7 @@ article {
     padding: 30px 0;
     border-top: 3px double rgb(4, 48, 13);
     border-bottom: 3px double rgb(4, 48, 13);
+    color: #fff;
 }
 
 .social-icons {
